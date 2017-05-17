@@ -12,6 +12,8 @@ matrix:
       env: OCAML_VERSION=4.04 COVERALLS=yes
     - os: linux
       env: OCAML_VERSION=4.04 BYTECODE_ONLY=yes
+    - os: linux
+      env: OCAML_VERSION=4.05
     - os: osx
       env: OCAML_VERSION=4.02
     - os: osx
